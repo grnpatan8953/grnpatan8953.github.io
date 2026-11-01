@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10151b">
+  <meta name="description" content="AUREM is a locally installed supermarket workflow app for product checks, floor walks, price boards and print-ready PDFs.">
+  <title>AUREM — Supermarket boards, ready to print</title>
+  <style>
+    :root{color-scheme:dark;--bg:#10151b;--panel:#171e26;--panel2:#1d2630;--gold:#e0bd62;--gold2:#f1d88f;--text:#f4f2ec;--muted:#b6c0ca;--line:#34404b;--green:#9bd8b1;--max:1080px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 78% 0%,#252a2d 0,transparent 38%),var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}a{color:var(--gold2);text-underline-offset:4px}a:hover{color:#fff}a:focus-visible{outline:3px solid var(--gold2);outline-offset:4px;border-radius:4px}.skip{position:absolute;left:-9999px;top:8px;background:var(--gold);color:#15191e;padding:8px 12px}.skip:focus{left:12px;z-index:5}.wrap{width:min(calc(100% - 40px),var(--max));margin:auto}.top{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:25px 0;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:12px;color:var(--text);text-decoration:none;font-size:1.2rem;font-weight:800;letter-spacing:.14em}.mark{display:grid;place-items:center;width:37px;height:37px;border:1px solid var(--gold);border-radius:10px;color:var(--gold);font-weight:800;letter-spacing:0}.nav{display:flex;gap:22px;flex-wrap:wrap}.nav a{font-size:.94rem}.hero{padding:86px 0 62px;max-width:850px}.eyebrow{color:var(--gold);font-size:.78rem;font-weight:800;letter-spacing:.17em;text-transform:uppercase}.hero h1{font-size:clamp(2.45rem,7vw,5.4rem);line-height:1.04;letter-spacing:-.055em;margin:15px 0 22px}.hero h1 span{color:var(--gold)}.lead{max-width:700px;color:#d3d8dd;font-size:clamp(1.08rem,2.5vw,1.32rem)}.note{display:inline-flex;align-items:center;gap:9px;margin-top:20px;border:1px solid #4a493c;border-radius:999px;padding:8px 13px;color:#e9dfc1;font-size:.9rem;background:#1a1e20}.dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 12px #9bd8b188}.section{padding:37px 0 60px}.section h2{font-size:1.8rem;letter-spacing:-.025em;margin:0 0 10px}.section-intro{color:var(--muted);max-width:690px;margin:0 0 27px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{border:1px solid var(--line);background:linear-gradient(150deg,var(--panel2),var(--panel));border-radius:16px;padding:23px;min-height:188px}.card .num{color:var(--gold);font-size:.8rem;font-weight:800;letter-spacing:.1em}.card h3{margin:10px 0 6px;font-size:1.12rem}.card p{color:var(--muted);margin:0;font-size:.96rem}.band{display:grid;grid-template-columns:1.4fr .6fr;gap:24px;align-items:center;margin:8px 0 65px;padding:26px;border:1px solid #5a5035;border-radius:16px;background:linear-gradient(120deg,#28271f,#1b2024)}.band p{margin:4px 0;color:var(--muted)}.band strong{color:var(--gold2)}.offline{justify-self:end;border:1px solid #657366;border-radius:999px;padding:8px 13px;color:#c8e3cb;white-space:nowrap;font-size:.88rem}.foot{border-top:1px solid var(--line);padding:23px 0 33px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:var(--muted);font-size:.9rem}.footnav{display:flex;gap:20px;flex-wrap:wrap}
+    @media(max-width:740px){.top{align-items:flex-start;flex-direction:column}.nav{gap:15px}.hero{padding:62px 0 43px}.grid{grid-template-columns:1fr}.card{min-height:0}.band{grid-template-columns:1fr;margin-bottom:45px}.offline{justify-self:start}.wrap{width:min(calc(100% - 30px),var(--max))}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="wrap">
+    <header class="top">
+      <a class="brand" href="index.html" aria-label="AUREM home"><span class="mark" aria-hidden="true">A</span><span>AUREM</span></a>
+      <nav class="nav" aria-label="Main navigation"><a href="index.html" aria-current="page">Overview</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div class="eyebrow">Retail floor work, made practical</div>
+        <h1>Clear boards.<br><span>Confident floor walks.</span></h1>
+        <p class="lead">AUREM is a Windows app for supermarket teams to check products and prices, manage floor walks, prepare promotional boards, and create print-ready PDFs.</p>
+        <div class="note"><span class="dot" aria-hidden="true"></span> Core workflows are designed to work locally on your device.</div>
+      </section>
+      <section class="section" aria-labelledby="work-title">
+        <h2 id="work-title">One workspace for the shop floor</h2>
+        <p class="section-intro">AUREM brings routine retail preparation together, from importing store reports to reviewing boards before printing.</p>
+        <div class="grid">
+          <article class="card"><div class="num">01 / CHECK</div><h3>CORE &amp; NON-CORE</h3><p>Use store reports to scan products, review stock and selling prices, and organize floor-walk findings.</p></article>
+          <article class="card"><div class="num">02 / PREPARE</div><h3>Boards &amp; audits</h3><p>Build offer boards, round boards and custom layouts, and keep product, rack and category details organized.</p></article>
+          <article class="card"><div class="num">03 / PRINT</div><h3>Review &amp; export</h3><p>Preview board layouts and save PDFs for manual review and printing at the intended physical size.</p></article>
+        </div>
+      </section>
+      <section class="band" aria-label="Local-first operation">
+        <div><strong>Work stays in your hands.</strong><p>Operational records are stored locally by the app. Optional AI tools and phone-to-PC transfers use network connections only when those features are used.</p></div>
+        <span class="offline">Local workflows available</span>
+      </section>
+    </main>
+    <footer class="foot"><span>AUREM · Supermarket workflow and board printing</span><nav class="footnav" aria-label="Legal"><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of service</a></nav></footer>
+  </div>
+</body>
+</html>
